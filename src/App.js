@@ -255,7 +255,7 @@ class App extends Component
 
   componentDidMount()
   {
-    document.title = "Energi Proposal Creator";
+    document.title = "HTH Proposal Creator";
 
     this.updateNetwork('main');
   }
