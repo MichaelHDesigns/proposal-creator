@@ -63,7 +63,7 @@ class DisplayTotal extends Component
 
     return (
       <div class="App-displayTotalDiv">
-        Total: {this.get_total()} NRG {this.get_date_str()}
+        Total: {this.get_total()} HTH {this.get_date_str()}
       </div>
     );
   }
