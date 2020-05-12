@@ -343,7 +343,7 @@ class App extends Component
     function validateProposalAddress(setError, state)
     {
       // Energi main net addresses start with 'E' and testnet addresses start with 't'
-      const addrPrefix = state.network === 'main' ? '^E' : '^t';
+      const addrPrefix = state.network === 'main' ? '^H' : '^t';
       const validChars = '123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz';
       const regexStr = addrPrefix + '[' + validChars + ']{33}$';
       let prefixRegex = new RegExp(regexStr, "i");
