@@ -220,8 +220,8 @@ class App extends Component
 
     this.setState({network: networkName}, function()
     {
-      if (this.state.network === 'main') this.explorerAPI = 'https://explorer.hth.world/api/';
-      else if (this.state.network === 'test') this.explorerAPI = 'https://explorer.hth.world/api/';
+      if (this.state.network === 'main') this.explorerAPI = 'http://chainz.cryptoid.info/hth/api';
+      else if (this.state.network === 'test') this.explorerAPI = 'http://chainz.cryptoid.info/hth/api';
       //else if (this.state.network === 'test60x') this.explorerAPI = 'https://explorer.hth.world/api/';
       else this.setError("Invalid network");
 
